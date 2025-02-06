@@ -9,6 +9,12 @@ a:link, a:visited {
     font-size: 18px;
 }
 
+body {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
 
 .header-container {
     display: flex;
@@ -182,3 +188,14 @@ p {
     font-weight: bold;
     font-size: 20px;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    color: white;
+    padding: 50px;
+    margin-top: auto;
+}
+
+
