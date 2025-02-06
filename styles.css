@@ -79,3 +79,40 @@ p {
     color: white;
 }
 
+
+.section-2 {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    gap: 50px;
+}
+
+.square-container {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    max-width: 120px;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+
+.square {
+    height: 120px;
+    width: 120px;
+    padding: 5px;
+    outline: 4px solid #3882f6;
+    border-radius: 15px;
+}
+
+.square-text {
+    display: flex;
+    font-size: 18px;
+}
+
+
