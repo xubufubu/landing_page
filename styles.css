@@ -28,3 +28,54 @@ a:link, a:visited {
     font-weight: bold;
     color: #f9faf8;
 }
+
+.section-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 15px 150px;
+    gap: 45px;
+}
+
+.hero-text {
+    font-weight: 900;
+    font-size: 48px;
+    color: white;
+}
+
+.section1-button {
+    flex: 0 0 25px;
+    width: 100px;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+}
+
+p {
+    margin: 0px;
+    color: white;
+}
+
+.left-side {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    flex: 1;
+    gap: 5px;
+    height: 300px;
+}
+
+.placeholder-img {
+    flex: 1;
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: grey;
+    color: white;
+}
+
