@@ -146,3 +146,39 @@ p {
     color: #1f2937;
     font-size: 24px;
 }
+
+.section-4 {
+    display: flex;
+    background-color: #3882f6;
+    color: white;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 45px;
+    margin: 80px;
+    border-radius: 10px;
+}
+
+.section4-text {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    
+}
+
+.action-text {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.bottom-signup {
+    background-color: #3882f6;
+    border: none;
+    outline: white solid 2px;
+    border-radius: 3px;
+    width: 150px;
+    height: 40px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
